@@ -129,3 +129,7 @@ EOF
 
 }
 
+resource "aws_s3_bucket" " jenkins-artifact20-s3" {
+  bucket = "jenkins-artifact20-s3"
+}
+
